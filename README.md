@@ -1,12 +1,13 @@
 # LeetCode Online Judge
 
 ## Information
-* **Total:** 151/1015 Solved
-* **AC %:** 53%
+* **Solved:** 152/1015 (Easy:128, Medium:24, Hard:0)
+* **Todo:** 863/1015
+* **AC %:** 53% (52.6%)
 * **WA %:** 26%
 * **RE %:** 10%
-* **Total submission:** 337
-* **Accepted submissions:** 177
+* **Total submission:** 340
+* **Accepted submissions:** 179
 
 ## Structures
 
