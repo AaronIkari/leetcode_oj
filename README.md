@@ -7,7 +7,7 @@
 * **WA %:** 26%
 * **RE %:** 10%
 * **Total submission:** 342
-* **Accepted submissions:** 181
+* **Accepted submissions:** 182
 
 ## Structures
 
