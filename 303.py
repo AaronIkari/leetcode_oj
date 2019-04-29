@@ -27,16 +27,6 @@ class NumArray(object):
     def sumRange(self, i, j):
         return self.sum_arr[j] - self.sum_arr[i] + self.nums[i]
 
-    def run(self, i, j):
-        print '{}'.format( self.sumRange(i, j) )
-
-
-num_array = NumArray([-2,0,3,-5,2,-1])
-num_array.run(0,2)
-num_array.run(2,5)
-num_array.run(0,5)
-
-
 # Your NumArray object will be instantiated and called as such:
 # obj = NumArray(nums)
 # param_1 = obj.sumRange(i,j)
