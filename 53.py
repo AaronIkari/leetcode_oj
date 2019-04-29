@@ -25,11 +25,3 @@ class Solution(object):
                 max_global = max_cur
 
         return max_global
-
-    def run(self):
-        nums = []
-        print '{}'.format( self.maxSubArray(nums) )
-
-
-solution = Solution()
-solution.run()
