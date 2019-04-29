@@ -7,7 +7,7 @@
 * **WA %:** 26%
 * **RE %:** 10%
 * **Total submission:** 342
-* **Accepted submissions:** 180
+* **Accepted submissions:** 181
 
 ## Structures
 
@@ -22,4 +22,5 @@ Legend:
 ---
 Example:
 1.py
+1.cpp
 ```
