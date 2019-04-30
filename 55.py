@@ -14,10 +14,22 @@ Output: false
 Explanation: You will always arrive at index 3 no matter what. Its maximum
              jump length is 0, which makes it impossible to reach the last index.
 '''
+
 class Solution(object):
+
     def canJump(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: bool
-        """
-        
+        # boundry condition
+        if len(nums) == 1: return True
+
+        max_cover = 0
+        cur = 0
+
+        while cur <= max_cover:
+            tmp_cover = cur + nums[cur]
+            if tmp_cover > max_cover:
+                max_cover = tmp_cover
+            if max_cover >= len(nums) - 1:
+                return True
+            cur += 1
+
+        return False
